@@ -1,7 +1,7 @@
 {
   "name": "css-animation-tests",
   "version": "1.0.0",
-  "description": "",
+  "description": "\"# Clip-path-menu\"",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
