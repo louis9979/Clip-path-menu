@@ -1,0 +1,32 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  background-color: rgba(236, 236, 236, 1);
+  box-sizing: border-box;
+}
+
+.clip-list{
+  margin: 0;
+  padding: 0;
+
+  &-items{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+  }
+}
+a {
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  font-size: 60px;
+  font-weight: 900;
+  text-decoration: none;
+}
